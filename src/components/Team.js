@@ -11,7 +11,7 @@ import {
   FaLinkedinIn,
 } from "react-icons/fa"
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import teamData from "../data/team"
+import teamData from "../data/teamData"
 
 const Team = () => {
   const [team, setTeam] = useState(teamData)
