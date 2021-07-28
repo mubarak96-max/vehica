@@ -228,3 +228,106 @@ nav button {
   line-height: 2rem;
   padding: 1.4rem;
 }
+
+.single-member {
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  color: black;
+  margin: 1.3rem;
+  position: relative;
+}
+
+.personal-details {
+  margin-left: -8rem;
+}
+
+.single-member h3 {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.single-member h4 {
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.team-social-media a {
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.email-link {
+  background-color: orangered;
+  color: white;
+  font-size: 1.6rem;
+  position: absolute;
+  left: 30%;
+  top: 59%;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.team-email {
+  display: block;
+  color: orangered;
+  margin: 2rem 0 2rem 0;
+  font-size: 1.1rem;
+}
+
+/* frequently asked questions */
+.frequent-questions {
+  background: rgb(234, 243, 248);
+  padding: 3rem;
+}
+
+.frequent-questions h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.frequent-questions a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.single-qtn {
+  margin: 2rem 3rem;
+  border: 1px solid orangered;
+  border-radius: 1rem;
+  padding: 1rem;
+  line-height: 1.8rem;
+}
+
+.qtn-top {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.qtn-top button {
+  outline: none;
+  background: transparent;
+  color: #333;
+  font-size: 2rem;
+  border: none;
+}
+
+.answer {
+  border-top: 1px solid orangered;
+  padding: 1rem;
+  background: white;
+}

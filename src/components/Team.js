@@ -15,7 +15,6 @@ import teamData from "../data/teamData"
 
 const Team = () => {
   const [team, setTeam] = useState(teamData)
-  console.log(team)
   return (
     <article className="our-team">
       <h2>our team</h2>
@@ -25,53 +24,55 @@ const Team = () => {
         any questions you have as you shop for a new vehicle in Uganda.
       </p>
       <div className="slider">
-        {team.map(member => {
-          const {
-            id,
-            position,
-            email,
-            names,
-            facebook,
-            instagram,
-            linkedin,
-            twitter,
-            image,
-          } = member
-          return (
-            <div>
-              {/* <StaticImage
+        <Carousel showStatus="false">
+          {team.map(member => {
+            const {
+              id,
+              position,
+              email,
+              names,
+              facebook,
+              instagram,
+              linkedin,
+              twitter,
+              image,
+            } = member
+            return (
+              <div className="single-member">
+                {/* <StaticImage
                 src={`../images/${image}`}
                 width={100}
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="vehica"
               /> */}
-              <img src={image} alt={names} />
-              <a href={`mailto:${email}`} className="email-link">
-                <FaEnvelope />
-              </a>
-              <div className="personal-details">
-                <h2>{names}</h2>
-                <h4>{position}</h4>
-                <div className="team-social-media">
-                  <Link to={facebook}>
-                    <FaFacebook />
-                  </Link>
-                  <Link to={instagram}>
-                    <FaInstagram />
-                  </Link>
-                  <Link to={linkedin}>
-                    <FaLinkedinIn />
-                  </Link>
-                  <Link to={twitter}>
-                    <FaTwitter />
-                  </Link>
+                <img src={image} alt={names} />
+                <a href={`mailto:${email}`} className="email-link">
+                  <FaEnvelope />
+                </a>
+                <div className="personal-details">
+                  <h3>{names}</h3>
+                  <h4>{position}</h4>
+                  <div className="team-social-media">
+                    <Link to={facebook}>
+                      <FaFacebook className="sm-icon" />
+                    </Link>
+                    <Link to={instagram}>
+                      <FaInstagram className="sm-icon" />
+                    </Link>
+                    <Link to={linkedin}>
+                      <FaLinkedinIn className="sm-icon" />
+                    </Link>
+                    <Link to={twitter}>
+                      <FaTwitter className="sm-icon" />
+                    </Link>
+                  </div>
+                  <span className="team-email">{email}</span>
                 </div>
-                <p className="team-email">{email}</p>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
+        </Carousel>
       </div>
     </article>
   )

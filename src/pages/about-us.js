@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
 import Team from "../components/Team"
+import FrequentQuestions from "../components/frequentQuestions"
 
 const About = () => {
   return (
@@ -78,18 +79,9 @@ const About = () => {
             <h5>Book a Test Drive!</h5>
             <Link to="/contact">contact us</Link>
           </div>
-
-          <div className="office-image">
-            {/* <StaticImage
-              src="../images/office.jpeg"
-              width={300}
-              quality={95}
-              formats={["AUTO", "WEBP", "AVIF"]}
-              alt="vehica"
-            /> */}
-          </div>
         </div>
         <Team />
+        <FrequentQuestions />
       </section>
     </Layout>
   )
