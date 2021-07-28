@@ -13,6 +13,46 @@ import {
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import teamData from "../data/teamData"
 
+export const SingleMember = ({
+  id,
+  image,
+  names,
+  email,
+  position,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+}) => {
+  return (
+    <div className="single-member">
+      <img src={image} alt={names} />
+      <a href={`mailto:${email}`} className="email-link">
+        <FaEnvelope />
+      </a>
+      <div className="personal-details">
+        <h3>{names}</h3>
+        <h4>{position}</h4>
+        <div className="team-social-media">
+          <Link to={facebook}>
+            <FaFacebook className="sm-icon" />
+          </Link>
+          <Link to={instagram}>
+            <FaInstagram className="sm-icon" />
+          </Link>
+          <Link to={linkedin}>
+            <FaLinkedinIn className="sm-icon" />
+          </Link>
+          <Link to={twitter}>
+            <FaTwitter className="sm-icon" />
+          </Link>
+        </div>
+        <span className="team-email">{email}</span>
+      </div>
+    </div>
+  )
+}
+
 const Team = () => {
   const [team, setTeam] = useState(teamData)
   return (
@@ -37,40 +77,7 @@ const Team = () => {
               twitter,
               image,
             } = member
-            return (
-              <div className="single-member">
-                {/* <StaticImage
-                src={`../images/${image}`}
-                width={100}
-                quality={95}
-                formats={["AUTO", "WEBP", "AVIF"]}
-                alt="vehica"
-              /> */}
-                <img src={image} alt={names} />
-                <a href={`mailto:${email}`} className="email-link">
-                  <FaEnvelope />
-                </a>
-                <div className="personal-details">
-                  <h3>{names}</h3>
-                  <h4>{position}</h4>
-                  <div className="team-social-media">
-                    <Link to={facebook}>
-                      <FaFacebook className="sm-icon" />
-                    </Link>
-                    <Link to={instagram}>
-                      <FaInstagram className="sm-icon" />
-                    </Link>
-                    <Link to={linkedin}>
-                      <FaLinkedinIn className="sm-icon" />
-                    </Link>
-                    <Link to={twitter}>
-                      <FaTwitter className="sm-icon" />
-                    </Link>
-                  </div>
-                  <span className="team-email">{email}</span>
-                </div>
-              </div>
-            )
+            return <SingleMember {...member} />
           })}
         </Carousel>
       </div>

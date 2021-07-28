@@ -34,6 +34,17 @@ const teamData = [
   },
   {
     id: 4,
+    names: "Titus Egessa",
+    position: "Copywriter",
+    email: "support@brokersonline.africa",
+    facebook: "https://www.facebook.com/vehicauganda/",
+    instagram: "https://www.instagram.com/vehica_uganda/",
+    linkedin: "https://www.linkedin.com/in/brokers-online-africa-51942520b/",
+    twitter: "https://twitter.com/VehicaUganda",
+    image: "titus.jpg",
+  },
+  {
+    id: 5,
     names: "mangeni wycliffe",
     position: "chief technology officer",
     email: "ad@brokersonline.africa",

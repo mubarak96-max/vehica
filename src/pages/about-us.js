@@ -12,6 +12,14 @@ const About = () => {
     <Layout>
       <SEO title="About Us" />
       <section className="about-us">
+        <StaticImage
+          src="../images/office.jpeg"
+          width={400}
+          quality={95}
+          formats={["AUTO", "WEBP", "AVIF"]}
+          alt="Vehica Uganda"
+          className="about-intro-image"
+        />
         <div className="about-us-intro">
           <h2>About Us</h2>
           <p>

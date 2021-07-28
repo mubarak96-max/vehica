@@ -41,7 +41,7 @@ const Menu = () => {
           {showAbout && (
             <div className="about-vehica-links">
               <Link to="/about-us">About us</Link>
-              <Link to="/team">our team</Link>
+              <Link to="/meet-our-team">our team</Link>
               <Link to="/how-to-buy">how to buy</Link>
               <Link to="/faq">FAQ</Link>
             </div>

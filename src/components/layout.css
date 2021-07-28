@@ -97,6 +97,11 @@ nav button {
 }
 
 /* about */
+.about-intro-image {
+  margin: 2rem;
+  border-radius: 1rem;
+}
+
 .about-us-intro h2 {
   font-size: 1.8rem;
 }
@@ -264,7 +269,7 @@ nav button {
   font-size: 1.6rem;
   position: absolute;
   left: 30%;
-  top: 59%;
+  top: 57.15%;
   padding: 0.4rem;
   display: flex;
   justify-content: center;
@@ -330,4 +335,67 @@ nav button {
   border-top: 1px solid orangered;
   padding: 1rem;
   background: white;
+}
+
+/* meet our team */
+.hero {
+  display: grid;
+}
+
+.hero-content {
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  background: rgb(34, 27, 27, 0.5);
+}
+
+.hero-content h2 {
+  color: white;
+  font-size: 2.1rem;
+}
+
+.hero-content h2 span {
+  color: orangered !important;
+}
+
+.hero-content p {
+  color: rgb(196, 191, 191);
+  margin-bottom: 9rem;
+  font-size: 1.2rem;
+}
+
+.team-ceo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-ceo h2 {
+  background: orangered;
+  color: white;
+  display: block;
+  padding: 0.8rem;
+  width: 80%;
+  text-align: center;
+  margin: 2rem 5rem 0 0 5rem;
+}
+
+.team-ceo span {
+  color: orangered;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.team-ceo p {
+  color: #333;
+}
+
+.more-about {
+  font-size: 2.1rem;
+}
+
+.m {
+  color: orangered !important;
 }
