@@ -269,7 +269,7 @@ nav button {
   font-size: 1.6rem;
   position: absolute;
   left: 30%;
-  top: 57.15%;
+  top: 57.12%;
   padding: 0.4rem;
   display: flex;
   justify-content: center;
@@ -398,4 +398,33 @@ nav button {
 
 .m {
   color: orangered !important;
+}
+
+/* how to buy */
+.buying-steps p {
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.step-number {
+  display: flex;
+}
+
+.step-number button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.steps {
+  border: 0.001px solid #333;
+  margin: 1.2rem;
+  padding: 0.4rem;
+  color: rgb(75, 73, 73);
+}
+
+.buying-steps h5 {
+  font-size: 1.5rem;
 }

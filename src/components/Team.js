@@ -25,7 +25,7 @@ export const SingleMember = ({
   twitter,
 }) => {
   return (
-    <div className="single-member">
+    <div id={id} className="single-member">
       <img src={image} alt={names} />
       <a href={`mailto:${email}`} className="email-link">
         <FaEnvelope />
@@ -64,7 +64,7 @@ const Team = () => {
         any questions you have as you shop for a new vehicle in Uganda.
       </p>
       <div className="slider">
-        <Carousel showStatus="false">
+        <Carousel showStatus="false" autoPlay="false">
           {team.map(member => {
             const {
               id,
