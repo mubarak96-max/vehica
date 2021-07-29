@@ -74,6 +74,7 @@ const Team = () => {
         </div>
 
         <div className="all-team">
+          <h2>meet our team</h2>
           {members.map(member => {
             return <SingleMember {...member} />
           })}

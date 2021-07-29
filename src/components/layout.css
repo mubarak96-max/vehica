@@ -428,3 +428,58 @@ nav button {
 .buying-steps h5 {
   font-size: 1.5rem;
 }
+
+/* search */
+.search-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+.search-title h5 {
+  color: gray;
+}
+
+/* car */
+.car {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center ; */
+  text-align: center;
+}
+
+.car p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.car h4 {
+  font-size: 1.5rem;
+}
+
+.car h6 {
+  color: gray;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.about-car {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.milage {
+  color: white;
+  background: orangered;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+}
