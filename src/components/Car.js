@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { FaCircle } from "react-icons/fa"
+import { FaCircle, FaImages } from "react-icons/fa"
 import carsData from "../data/cars"
 
 const Car = () => {
@@ -21,16 +21,22 @@ const Car = () => {
           model,
           name,
           price,
+          featured,
         } = car
         return (
           <article id={id} className="car">
+            {featured && <p className="isFeatured">featured</p>}
             <StaticImage
               src="../images/land cruiser.jpg"
-              width={200}
+              width={400}
+              height={250}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="vehica"
             />
+            <span className="images">
+              <FaImages />3
+            </span>
             <p>{name}</p>
             <h4>Ushs{price}</h4>
             <div className="about-car">

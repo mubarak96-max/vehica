@@ -1,0 +1,29 @@
+.blog-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem orangered solid;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.blog-post h3 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.blog-post span,
+p {
+  color: gray;
+  padding: 0 1rem;
+}
+
+.blog-post a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  padding: 0.5rem;
+  margin-bottom: 0.6rem;
+  border-radius: 0.5rem;
+}

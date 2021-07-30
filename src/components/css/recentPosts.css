@@ -1,0 +1,12 @@
+.recent-post {
+  display: flex;
+  margin: 0.7rem 0.9rem;
+}
+
+.to h3 {
+  text-transform: capitalize;
+}
+
+.to a {
+  color: orangered;
+}
