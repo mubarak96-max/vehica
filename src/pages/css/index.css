@@ -1,0 +1,94 @@
+.intro-hero {
+  display: grid;
+  min-height: 80vh;
+}
+
+.intro-hero-content {
+  grid-area: 1/1;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(160, 157, 157, 0.4);
+}
+
+.intro-hero-content h2 {
+  font-size: 2rem;
+}
+
+.intro-hero-content h2 span {
+  color: orangered;
+}
+
+.condition-links a {
+  display: block;
+  margin: 0.6rem 1rem;
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.condition-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.select-search {
+  width: 95%;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.select {
+  width: 90%;
+  margin: 0.6rem 0;
+}
+
+.select-button {
+  color: white;
+  background: orangered;
+  width: 90%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.vehicle-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  place-items: center;
+  grid-gap: 1rem;
+  margin: 2rem 0;
+}
+
+.vehicle-category a {
+  width: 4rem;
+  height: 4rem;
+  color: white;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 50%;
+  padding: 0.2rem;
+  position: relative;
+}
+
+.vehicle-icon {
+  top: 0.9rem;
+  padding: 0;
+  position: absolute;
+}

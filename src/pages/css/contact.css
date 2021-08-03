@@ -1,0 +1,92 @@
+.contacts {
+  text-align: center;
+}
+
+.contacts p {
+  margin: 0.9rem 2.5rem;
+  line-height: 1.3rem;
+}
+
+.contacts h6 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.phone {
+  font-size: 1.7rem;
+}
+
+.phone span {
+  color: orangered;
+}
+
+.contacts h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(109, 107, 107);
+}
+
+/* social media icons */
+.sm {
+  margin: 2rem 5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sm a {
+  color: rgb(109, 107, 107);
+  font-size: 2rem;
+}
+
+.sm a:hover {
+  opacity: 0.4;
+}
+
+/* form */
+.contact-form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(134, 208, 235, 0.3);
+  margin: 1rem;
+  border-radius: 0.8rem;
+  padding: 1rem auto;
+}
+
+.contact-form input,
+textarea {
+  display: block;
+  margin: 1rem;
+  width: 80%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+}
+
+.send input {
+  display: inline;
+}
+
+.send {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+.send span {
+  color: orangered;
+}
+
+.send button {
+  background: orangered;
+  border: none;
+  color: white;
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,72 @@
+footer {
+  background: rgb(1, 0, 7, 0.87);
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  background: white;
+  margin: 0.7rem;
+}
+
+.office-link {
+  color: white;
+  background: orangered;
+  text-decoration: none;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.footer-contacts p {
+  color: white;
+  margin: 0.6rem 3.4rem;
+}
+
+.phone {
+  color: white;
+}
+
+.sm-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-footer a {
+  background: #333;
+  color: whitesmoke;
+  margin: 0 0.7rem;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+}
+
+/* footer site links */
+.site-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.01rem solid rgb(241, 238, 238, 0.2);
+}
+
+.site-link h5 {
+  color: white;
+  text-transform: capitalize;
+}
+
+.site-link a {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.copyright {
+  text-align: center;
+  padding: 2rem 0;
+}

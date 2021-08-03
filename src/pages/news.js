@@ -82,7 +82,7 @@ const News = () => {
             <div>
               <StaticImage
                 src="../images/amman.png"
-                width={90}
+                width={80}
                 quality={100}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="sales_advisor_vehica"

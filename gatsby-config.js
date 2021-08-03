@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -27,6 +31,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/logo.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `ct22ysd418wt`,
+        // Learn about environment variables: https://gatsby.dev/env-vars
+        accessToken: `VeskTiv-dQCbBuV4IcKVk9I1rHi_T23vPrQYpWAocP0`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
