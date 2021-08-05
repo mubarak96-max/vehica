@@ -1,0 +1,89 @@
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 3rem 0;
+  position: relative;
+  background: rgb(20, 21, 27);
+  border-radius: 1rem;
+}
+
+.isFeatured {
+  position: absolute;
+  top: 0.4rem;
+  left: 4rem;
+  font-size: 0.8rem !important;
+  background: orangered;
+  padding: 0.2rem;
+  z-index: 999;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+@keyframes changeSize {
+  0% {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+  }
+  50% {
+    font-size: 1.2rem;
+    padding: 0.25rem;
+  }
+  100% {
+    font-size: 1.6rem;
+    padding: 0.28rem;
+  }
+}
+
+.isFeatured {
+  animation: changeSize 0.3s infinite;
+}
+
+.images {
+  color: rgb(250, 242, 242);
+  position: absolute;
+  bottom: 15rem;
+  right: 4rem;
+  font-size: 1.1rem;
+}
+
+.car p {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  margin-left: 0.2rem;
+}
+
+.car h4 {
+  font-size: 1.7rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.3rem;
+  color: white;
+}
+
+.car h6 {
+  color: gray;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.about-car {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 0.5px solid rgb(241, 231, 231, 0.3);
+}
+
+.milage {
+  color: white;
+  background: orangered;
+  padding: 0.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5rem;
+}
