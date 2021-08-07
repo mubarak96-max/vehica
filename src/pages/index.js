@@ -13,12 +13,33 @@ const make = [
   { value: "Jeep", label: "Jeep" },
 ]
 
-const IndexPage = ({ data }) => {
-  console.log(data)
+const query = graphql`
+  {
+    allCars: allContentfulVehica {
+      cars: nodes {
+        fuel
+        id
+        image {
+          gatsbyImageData(quality: 95, placeholder: BLURRED, formats: [AUTO])
+        }
+        milage
+        images {
+          title
+        }
+        name
+        price
+        transmission
+      }
+    }
+  }
+`
+
+const IndexPage = () => {
+  const data = useStaticQuery(query)
+
   const {
     allCars: { cars },
   } = data
-  console.log(cars)
 
   return (
     <Layout>
@@ -101,33 +122,10 @@ const IndexPage = ({ data }) => {
       </div>
 
       {cars.map(car => {
-        console.log(car.image)
-
         return <Car {...car} />
       })}
     </Layout>
   )
 }
-
-export const query = graphql`
-  {
-    allCars: allContentfulVehica {
-      cars: nodes {
-        fuel
-        id
-        image {
-          gatsbyImageData(quality: 95, placeholder: BLURRED, formats: [AUTO])
-        }
-        milage
-        images {
-          title
-        }
-        name
-        price
-        transmission
-      }
-    }
-  }
-`
 
 export default IndexPage

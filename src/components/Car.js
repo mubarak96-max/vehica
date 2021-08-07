@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { FaCircle, FaImages } from "react-icons/fa"
 import "./css/car.css"
@@ -39,6 +40,7 @@ const Car = ({
           {fuel}
         </h6>
       </div>
+      <Link to={`/vehicles/${name}`}>more details</Link>
     </article>
   )
 }
