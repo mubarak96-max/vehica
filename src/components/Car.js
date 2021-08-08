@@ -16,13 +16,14 @@ const Car = ({
   images,
 }) => {
   const pic = getImage(image)
+  const imagesNumber = images.length
   return (
     <article id={id} className="car">
       {featured && <p className="isFeatured">featured</p>}
       <GatsbyImage image={pic} />
       <span className="images">
         <FaImages />
-        {images.length}
+        {/* {imagesNumber} */}
       </span>
       <p>{name}</p>
       <h4>Ushs{price}</h4>
