@@ -16,7 +16,7 @@ const Car = ({
   images,
 }) => {
   const pic = getImage(image)
-  const imagesNumber = images.length
+  // const imagesNumber = images.length
   return (
     <article id={id} className="car">
       {featured && <p className="isFeatured">featured</p>}
