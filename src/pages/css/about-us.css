@@ -1,0 +1,242 @@
+/* about */
+.about-intro-image {
+  margin: 1.8rem;
+  border-radius: 1rem;
+}
+
+.about-us-intro h2 {
+  font-size: 1.6rem;
+}
+
+.about-us-intro p {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+  color: lightslategray;
+}
+
+.mission h4 {
+  color: lightslategray;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.mission p {
+  color: lightslategray;
+  font-size: 1.1rem;
+}
+
+.note {
+  border-left: 4px rgb(255, 94, 0) solid;
+  font-size: 1.3rem;
+  padding: 1rem;
+  font-weight: 400;
+  color: rgb(143, 140, 140);
+}
+
+.forward {
+  font-size: 1.1rem;
+  color: lightslategray;
+}
+
+/* social media links */
+.social-media {
+  text-align: center;
+}
+
+.social-media h5 {
+  text-transform: capitalize;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.social-media a {
+  padding-left: 1.6rem;
+  color: black;
+}
+
+.office {
+  position: relative;
+}
+
+/*.ceo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+*/
+.ceo h5 {
+  font-size: 4.9rem;
+}
+
+.ceo p {
+  color: gray;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin: 0 2rem;
+}
+
+.ceo-image {
+  margin: 0 6rem;
+}
+
+.xxx{
+  display: flex;
+  justify-content: space-between;
+}
+
+.book {
+  background: white;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70px;
+}
+
+.book h5 {
+  font-size: 0.7rem;
+}
+
+.book a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  padding: 0.3rem 0.8rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/*.office-image img {
+  display: block;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 2rem;
+}
+*/
+.our-team {
+  background: black;
+  margin: 0.3rem;
+  padding: 0.3rem;
+  border-radius: 0.8rem;
+}
+
+.our-team h2 {
+  font-size: 1.8rem;
+  color: white;
+  text-transform: capitalize;
+  padding-left: 1rem;
+}
+
+.our-team p {
+  font-size: 1.1rem;
+  color: lightgray;
+  line-height: 2rem;
+  padding: 1.1rem;
+}
+
+.single-member {
+  text-align: center;
+  background: white;
+  border-radius: 1rem;
+  color: black;
+  margin: 0.5rem;
+  position: relative;
+}
+
+.personal-details {
+  margin: 3rem;
+}
+
+.single-member h3 {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.single-member h4 {
+  color: gray;
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.team-social-media a {
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.email-link {
+  background-color: orangered;
+  color: white;
+  font-size: 1.3rem;
+  position: absolute;
+  left: 30%;
+  top: 46%;
+  padding: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.team-email {
+  color: orangered;
+  margin:  0 2rem;
+  font-size: 1.1rem;
+}
+
+/* frequently asked questions */
+.frequent-questions {
+  background: rgb(234, 243, 248);
+  padding: 0.5rem;
+}
+
+.frequent-questions h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.frequent-questions a {
+  text-decoration: none;
+  color: white;
+  background: orangered;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  font-size: 1rem;
+  padding: 0.9rem;
+  text-align: center;
+}
+
+.single-qtn {
+  margin: 0.4rem 0.8rem;
+  border: 1px solid orangered;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  line-height: 1.8rem;
+}
+
+.qtn-top {
+  display: flex;
+  background: white;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.qtn-top button {
+  outline: none;
+  background: transparent;
+  color: #333;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.answer {
+  border-top: 1px solid orangered;
+  padding: 0.5rem;
+  background: white;
+}

@@ -4,6 +4,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { FaBars, FaUser } from "react-icons/fa"
 import Menu from "./menu"
 import { useGlobalContext } from "./context"
+import './css/header.css'
 
 const Header = () => {
   const { showMenu, OnToggle } = useGlobalContext()
@@ -19,7 +20,7 @@ const Header = () => {
           </div>
           <div className="logo">
             <Link to="/">
-              <StaticImage
+              <StaticImage 
                 src="../images/logo.png"
                 width={100}
                 quality={95}

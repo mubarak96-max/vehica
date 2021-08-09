@@ -1,6 +1,8 @@
+
 .intro-hero {
   display: grid;
   min-height: 80vh;
+  
 }
 
 .intro-hero-content {
@@ -15,7 +17,7 @@
 }
 
 .intro-hero-content h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .intro-hero-content h2 span {
@@ -24,7 +26,7 @@
 
 .condition-links a {
   display: block;
-  margin: 0.6rem 1rem;
+  margin: 0.6rem 0.8rem;
   color: white;
   text-decoration: none;
   text-transform: capitalize;
@@ -36,7 +38,7 @@
 }
 
 .select-search {
-  width: 95%;
+  width: 90%;
   background: white;
   border-radius: 1rem;
   padding: 1rem;
@@ -45,21 +47,21 @@
 }
 
 .select {
-  width: 90%;
+  width: 85%;
   margin: 0.6rem 0;
 }
 
 .select-button {
   color: white;
   background: orangered;
-  width: 90%;
+  width: 85%;
   padding: 0.5rem;
   border: none;
   outline: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   border-radius: 0.5rem;
 }
 
@@ -72,8 +74,8 @@
 }
 
 .vehicle-category a {
-  width: 4rem;
-  height: 4rem;
+  width:3.5rem;
+  height: 3.5rem;
   color: white;
   text-transform: capitalize;
   text-decoration: none;
@@ -85,6 +87,7 @@
   border-radius: 50%;
   padding: 0.2rem;
   position: relative;
+  font-size: 0.8rem;
 }
 
 .vehicle-icon {

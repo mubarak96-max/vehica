@@ -44,6 +44,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
+      <div className='home-page'>
       <div className="intro-hero">
         <StaticImage
           style={{ gridArea: "1/1" }}
@@ -77,7 +78,7 @@ const IndexPage = () => {
           <div className="vehicle-categories">
             <div className="vehicle-category">
               <Link to="/">
-                <FaCar className="vehicle-icon" />
+                <FaCar  className="vehicle-icon" />
                 <h6>sedan</h6>
               </Link>
             </div>
@@ -124,6 +125,7 @@ const IndexPage = () => {
       {cars.map(car => {
         return <Car {...car} />
       })}
+      </div>
     </Layout>
   )
 }

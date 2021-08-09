@@ -60,10 +60,10 @@ const Team = () => {
       <p>
         Our trained sales staff will help you every step of the way during your
         shopping experience at Vehica Uganda. Our sales team is ready to answer
-        any questions you have as you shop for a new vehicle in Uganda.
+        any questions you have as you shop for a new vehicle in Uganda
       </p>
       <div className="slider">
-        <Carousel showStatus="false" autoPlay="false">
+        <Carousel showStatus="false" infiniteLoop autoPlay="false">
           {team.map(member => {
             const {
               id,

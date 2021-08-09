@@ -24,7 +24,7 @@ footer {
 
 .footer-contacts p {
   color: white;
-  margin: 0.6rem 3.4rem;
+  margin: 0.6rem 1.3rem;
 }
 
 .phone {
@@ -54,6 +54,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   border-bottom: 0.01rem solid rgb(241, 238, 238, 0.2);
+  padding: 0 0.5rem;
 }
 
 .site-link h5 {

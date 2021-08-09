@@ -20,7 +20,7 @@ const Footer = () => {
           <Link to="/">
             <StaticImage
               src="../images/logo.png"
-              width={120}
+              width={121}
               quality={95}
               formats={["AUTO", "WEBP", "AVIF"]}
               alt="vehica"

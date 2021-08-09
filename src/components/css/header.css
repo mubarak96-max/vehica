@@ -1,0 +1,92 @@
+/* header */
+/* navbar */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.nav-icon {
+  color: orangered;
+  font-size: 2rem;
+}
+
+/* menu */
+.menu {
+  min-height: 100vh;
+  background: grey;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #333;
+  height: 5rem;
+}
+
+.menu-header a {
+  color: black;
+  background: orangered;
+  text-decoration: none;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  border-radius: 2rem;
+}
+
+.closeMenu-btn {
+  color: orangered;
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+}
+
+.menu-links a {
+  display: block;
+  color: white;
+  font-size: 1.3rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 0.7rem;
+  border-bottom: 1px solid black;
+}
+
+.about-vehica-btns {
+  padding: 0.8rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-vehica-btns button {
+  background: transparent;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.menu-contacts {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-contact-icon {
+  color: orangered;
+  font-size: 2rem;
+  margin: 0.5rem;
+}

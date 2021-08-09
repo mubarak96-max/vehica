@@ -25,8 +25,12 @@ const Car = ({
         <FaImages />
        
       </span>
-      <p>{name}</p>
-      <h4>Ushs{price}</h4>
+
+      <div className='car-name'>
+      <h2>{name}</h2>
+      <h3>UgSh:{price}.00</h3>
+      </div>
+      
       <div className="about-car">
         <span className="milage">
           <FaCircle size={20} />

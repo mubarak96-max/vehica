@@ -1,7 +1,9 @@
 .car {
-  margin: 3rem 0;
+  margin: 3rem 1rem;
   background: rgb(20, 21, 27);
   border-radius: 1rem;
+  position: relative;
+  padding: 0.6rem;
 }
 
 .isFeatured {
@@ -38,28 +40,36 @@
 .images {
   color: rgb(250, 242, 242);
   position: absolute;
-  bottom: 15rem;
+  top: 15rem;
   right: 4rem;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
-.car p {
-  font-size: 1.5rem;
+.car-name{
+  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.car-name h2 {
+  font-size: 1rem;
   text-transform: uppercase;
   color: white;
-  margin-left: 0.2rem;
+  margin-bottom: 0.8rem;
+
 }
 
-.car h4 {
-  font-size: 1.7rem;
-  margin-left: 0.2rem;
-  margin-bottom: 0.2rem;
-  margin-top: 0.3rem;
+.car-name h3 {
+  font-size: 1.6rem;
   color: white;
+  margin-top: 0;
+  margin-left: -0.9rem;
 }
 
 .car h6 {
@@ -93,10 +103,12 @@
   background: red;
   text-decoration: none;
   text-transform: capitalize;
-  padding: 0.4rem;
+  padding: 0.3rem;
   display: inline-block;
-  margin: 1rem 5rem;
-  border-radius: 1rem;
+  margin: 1rem 4rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .car a:hover {

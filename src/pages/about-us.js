@@ -6,10 +6,11 @@ import SEO from "../components/seo"
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"
 import Team from "../components/Team"
 import FrequentQuestions from "../components/frequentQuestions"
+import './css/about-us.css'
 
 const About = () => {
-  return (
-    <Layout>
+    return (
+        <Layout>
       <SEO title="About Us" />
       <section className="about-us">
         <StaticImage
@@ -52,7 +53,7 @@ const About = () => {
         </p>
         <div className="social-media">
           <h5>follow us</h5>
-          <Link to="google.com">
+          <Link to="googles.com">
             <FaFacebook />
           </Link>
           <Link to="google.com">
@@ -65,14 +66,17 @@ const About = () => {
             <FaLinkedin />
           </Link>
         </div>
+
         <div className="office">
-          <div className="ceo">
-            <h2>Our CEO say</h2>
+ <div className="ceo">
+  <h2>Our CEO say</h2>
             <p>
               Quality is never an accident; it is always the result of high
               intention.
             </p>
-            <div>
+
+            <div className='xxx'>
+               <div>
               <StaticImage
                 src="../images/ceo.png"
                 width={400}
@@ -82,17 +86,28 @@ const About = () => {
                 className="ceo-image"
               />
             </div>
-          </div>
-          <div className="book">
-            <h5>Book a Test Drive!</h5>
-            <Link to="/contact">contact us</Link>
-          </div>
-        </div>
+
+
+
+            </div>
+
+  </div>
+
+         </div>
+
+
+
+
+
+
+
+
+
         <Team />
         <FrequentQuestions />
       </section>
     </Layout>
-  )
+    )
 }
 
 export default About
