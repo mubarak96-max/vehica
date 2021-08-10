@@ -1,0 +1,67 @@
+/* meet our team */
+.hero {
+  display: grid;
+}
+
+.hero-content {
+  grid-area: 1/1;
+  position: relative;
+  place-items: center;
+  display: grid;
+  background: rgb(34, 27, 27, 0.5);
+}
+
+.hero-content h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.hero-content h2 span {
+  color: orangered !important;
+}
+
+.hero-content p {
+  color: rgb(223, 213, 213);
+  margin-bottom: 9rem;
+  font-size: 1.1rem;
+}
+
+.team-ceo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-ceo h2 {
+  background: orangered;
+  color: white;
+  display: block;
+  padding: 0.6rem;
+  width: 80%;
+  text-align: center;
+  margin: 2rem 5rem 0 0 5rem;
+}
+
+.team-ceo span {
+  color: orangered;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.team-ceo p {
+  color: #333;
+}
+
+.more-about {
+  font-size: 1.4rem;
+  padding: 0.3rem;
+}
+
+.m {
+  color: orangered !important;
+}
+
+.all-team h2 {
+  text-transform: capitalize;
+}

@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa"
 import team from "../data/teamData"
 import { SingleMember } from "../components/Team"
+import './css/meet-our-team.css'
 
 const Team = () => {
   const [members, setMembers] = useState(team)

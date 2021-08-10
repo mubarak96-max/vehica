@@ -7,6 +7,7 @@ exports.createPages = async ({ graphql, actions }) => {
       cars: allContentfulVehica {
         nodes {
           name
+          category
         }
       }
     }

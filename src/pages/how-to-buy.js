@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { FaPlus, FaMinus } from "react-icons/fa"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import "./css/how-to-buy.css"
 
 const stepsData = [
   {

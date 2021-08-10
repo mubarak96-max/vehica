@@ -44,87 +44,87 @@ const IndexPage = () => {
   return (
     <Layout>
       <Seo title="Home" />
-      <div className='home-page'>
-      <div className="intro-hero">
-        <StaticImage
-          style={{ gridArea: "1/1" }}
-          layout="fullWidth"
-          src="../images/background.jpg"
-          width={100}
-          quality={95}
-          formats={["AUTO", "WEBP", "AVIF"]}
-          alt="vehica"
-        />
-        <div className="intro-hero-content">
-          <h2>
-            Find Your <span>Dream </span>Car
-          </h2>
+      <div className="home-page">
+        <div className="intro-hero">
+          <StaticImage
+            style={{ gridArea: "1/1" }}
+            layout="fullWidth"
+            src="../images/background.jpg"
+            width={100}
+            quality={95}
+            formats={["AUTO", "WEBP", "AVIF"]}
+            alt="vehica"
+          />
+          <div className="intro-hero-content">
+            <h2>
+              Find Your <span>Dream </span>Car
+            </h2>
 
-          <div className="condition-links">
-            <Link to="/">All</Link>
-            <Link to="/">japan used</Link>
-            <Link to="/">New</Link>
-            <Link to="/">uganda used</Link>
-          </div>
+            <div className="condition-links">
+              <Link to="/">All</Link>
+              <Link to="/">japan used</Link>
+              <Link to="/">New</Link>
+              <Link to="/">uganda used</Link>
+            </div>
 
-          <Select options={make} className="select" placeholder="All Makes" />
+            <Select options={make} className="select" placeholder="All Makes" />
 
-          <Select options={make} className="select" placeholder="All Makes" />
+            <Select options={make} className="select" placeholder="All Makes" />
 
-          <button className="select-button">
-            Search
-            <FaSearch />
-          </button>
-          <div className="vehicle-categories">
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar  className="vehicle-icon" />
-                <h6>sedan</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>tractor</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>coupe</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>sports utility</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>hatchback</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>convertible</h6>
-              </Link>
-            </div>
-            <div className="vehicle-category">
-              <Link to="/">
-                <FaCar className="vehicle-icon" />
-                <h6>truck</h6>
-              </Link>
+            <button className="select-button">
+              Search
+              <FaSearch />
+            </button>
+            <div className="vehicle-categories">
+              <div className="vehicle-category">
+                <Link to="/categories/sedan">
+                  <FaCar className="vehicle-icon" />
+                  <h6>sedan</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/tractor">
+                  <FaCar className="vehicle-icon" />
+                  <h6>tractor</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/coupe">
+                  <FaCar className="vehicle-icon" />
+                  <h6>coupe</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/sports-utility">
+                  <FaCar className="vehicle-icon" />
+                  <h6>sports utility</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/hatchback">
+                  <FaCar className="vehicle-icon" />
+                  <h6>hatchback</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/convertible">
+                  <FaCar className="vehicle-icon" />
+                  <h6>convertible</h6>
+                </Link>
+              </div>
+              <div className="vehicle-category">
+                <Link to="/categories/truck">
+                  <FaCar className="vehicle-icon" />
+                  <h6>truck</h6>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {cars.map(car => {
-        return <Car {...car} />
-      })}
+        {cars.map(car => {
+          return <Car {...car} />
+        })}
       </div>
     </Layout>
   )

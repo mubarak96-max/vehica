@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 
 html {
-  font-family: "Roboto", sans-serif ;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -103,7 +103,7 @@ nav button {
 }
 
 /* about */
-.about-intro-image {
+/* .about-intro-image {
   margin: 2rem;
   border-radius: 1rem;
 }
@@ -141,10 +141,10 @@ nav button {
 .forward {
   font-size: 1.2rem;
   color: lightslategray;
-}
+} */
 
 /* social media links */
-.social-media {
+/* .social-media {
   text-align: center;
 }
 
@@ -210,7 +210,7 @@ nav button {
   text-transform: capitalize;
   border-radius: 0.5rem;
   font-size: 1.2rem;
-}
+} */
 
 .office-image img {
   display: block;
@@ -343,69 +343,6 @@ nav button {
   background: white;
 }
 
-/* meet our team */
-.hero {
-  display: grid;
-}
-
-.hero-content {
-  grid-area: 1/1;
-  position: relative;
-  place-items: center;
-  display: grid;
-  background: rgb(34, 27, 27, 0.5);
-}
-
-.hero-content h2 {
-  color: white;
-  font-size: 2.1rem;
-}
-
-.hero-content h2 span {
-  color: orangered !important;
-}
-
-.hero-content p {
-  color: rgb(196, 191, 191);
-  margin-bottom: 9rem;
-  font-size: 1.2rem;
-}
-
-.team-ceo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.team-ceo h2 {
-  background: orangered;
-  color: white;
-  display: block;
-  padding: 0.8rem;
-  width: 80%;
-  text-align: center;
-  margin: 2rem 5rem 0 0 5rem;
-}
-
-.team-ceo span {
-  color: orangered;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-}
-
-.team-ceo p {
-  color: #333;
-}
-
-.more-about {
-  font-size: 2.1rem;
-}
-
-.m {
-  color: orangered !important;
-}
-
 /* how to buy */
 .buying-steps p {
   color: #333;
@@ -447,5 +384,3 @@ nav button {
 .search-title h5 {
   color: gray;
 }
-
-/* car */

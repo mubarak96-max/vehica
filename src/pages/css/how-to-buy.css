@@ -1,0 +1,30 @@
+/* how to buy */
+.buying-steps p {
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+.step-number {
+  display: flex;
+}
+
+.step-number button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+}
+
+.steps {
+  border: 0.001px solid #333;
+  margin: 1.2rem;
+  padding: 0.4rem;
+  color: rgb(75, 73, 73);
+}
+
+.buying-steps h5 {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
