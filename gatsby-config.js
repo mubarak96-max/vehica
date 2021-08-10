@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Vehica Uganda`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
@@ -27,6 +27,7 @@ module.exports = {
         name: `Vehica Uganda`,
         short_name: `Vehica`,
         description: `Leading online car dealers`,
+        lang:`en`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

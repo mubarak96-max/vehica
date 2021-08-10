@@ -32,7 +32,7 @@ const Sedan = () => {
   console.log(data)
 
   const newCategory = data.allContentfulVehica.nodes.filter(
-    car => car.category === "car"
+    car => car.category == "sedan"
   )
 
   console.log(newCategory)
@@ -42,10 +42,16 @@ const Sedan = () => {
       <SEO title="Sedan" />
       <section className="category">
         <div className="categories">
-          <h3>{newCategory.length} results</h3>
-          {newCategory.map(vehicle => {
-            return <Car {...vehicle} />
-          })}
+          {newCategory.length < 1 ? (
+            <h3>No results for this category</h3>
+          ) : (
+            <div>
+              <h3>{newCategory.length} results</h3>
+              {newCategory.map(vehicle => {
+                return <Car {...vehicle} />
+              })}
+            </div>
+          )}
         </div>
       </section>
     </Layout>

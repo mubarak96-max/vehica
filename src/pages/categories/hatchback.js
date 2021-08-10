@@ -23,19 +23,19 @@ const query = graphql`
   }
 `
 
-const Tractor = () => {
+const Hatchback = () => {
   const data = useStaticQuery(query)
   const {
     allContentfulVehica: { nodes },
   } = data
 
   const newCategory = data.allContentfulVehica.nodes.filter(
-    car => car.category == "tractor"
+    car => car.category == "hatchback"
   )
 
   return (
     <Layout>
-      <SEO title="Tractor" />
+      <SEO title="Hatchback" />
       <section className="category">
         <div className="categories">
           {newCategory.length < 1 ? (
@@ -54,4 +54,4 @@ const Tractor = () => {
   )
 }
 
-export default Tractor
+export default Hatchback
