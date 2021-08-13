@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { graphql, Link } from "gatsby"
 import { GatsbyImage, getImage, StaticImage } from "gatsby-plugin-image"
 import Layout from "./layout"
 import SEO from "./seo"
@@ -143,7 +143,7 @@ const ComponentName = ({ data }) => {
           </span>
         </div>
       </div>
-      <RelatedCars />
+      <RelatedCars cat={category} />
     </Layout>
   )
 }
